@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 //request to this server:
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'http://localhost:5173',
 };
 
 app.use(cors(corsOptions));
