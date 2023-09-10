@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 //request to this server:
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://tourapp123.netlify.app/',
   //for delete request to be accepted from browser:
   credentials: true
 };
