@@ -12,9 +12,9 @@ if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 //request to this server:
 
 const corsOptions = {
-  origin: 'https://tourapp123.netlify.app/',
+  origin: 'https://tourapp123.netlify.app',
   //for delete request to be accepted from browser:
-  credentials: true
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
