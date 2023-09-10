@@ -13,6 +13,8 @@ if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 
 const corsOptions = {
   origin: 'http://localhost:5173',
+  //for delete request to be accepted from browser:
+  credentials: true
 };
 
 app.use(cors(corsOptions));
